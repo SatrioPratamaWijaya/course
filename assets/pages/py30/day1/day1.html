@@ -13,17 +13,13 @@
             background-color: #30475E;
             font-family: 'Agdasima', sans-serif;
         }
-        .judul{
-            margin-top: 7px;
-            margin-bottom: 3px;
-        }
-        
-        .container{
+
+        .container {
             border: 3px solid black;
             background-color: #DDDDDD;
             padding: 0% 5%;
         }
-        
+
         span {
             font-weight: 700;
         }
@@ -43,6 +39,12 @@
             justify-content: center;
             align-items: center;
         }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -57,10 +59,11 @@
             </ul>
         </div>
     </nav>
-    <div class="container judul">
-        <h2 class="text-center">Hari 1: Pengenalan Python, Hello World, Variabel dan Tipe Data, Operator, dan Pengendalian Aliran</h2>
+    <div class="container mt-2 mb-2">
+        <h2 class="text-center">Hari 1: Pengenalan Python, Hello World, Variabel dan Tipe Data, Operator, dan
+            Pengendalian Aliran</h2>
     </div>
-    <div class="container">
+    <div class="container mb-2">
         <h3>1. Pengenalan Python</h3>
         <p>Python adalah bahasa pemrograman tingkat tinggi yang populer dan mudah dipelajari. Berikut adalah beberapa
             poin penting tentang Python:</p>
@@ -71,7 +74,7 @@
             <li>Python memiliki dukungan yang luas untuk pengembangan berbagai jenis aplikasi, seperti pengembangan web,
                 analisis data, kecerdasan buatan, dan banyak lagi.</li>
         </ul>
-
+        <hr>
         <h3>2. Hello World</h3>
         <p>Program "Hello World" merupakan program sederhana yang biasanya digunakan untuk memperkenalkan sebuah bahasa
             pemrograman. Berikut adalah contoh program "Hello World" dalam Python:</p>
@@ -83,7 +86,7 @@
             <li>Fungsi `print()` digunakan untuk mencetak atau menampilkan teks atau nilai ke layar.</li>
             <li>Dalam contoh ini, kita mencetak string "Hello, World!".</li>
         </ul>
-
+        <hr>
         <h3>3. Variabel dan Tipe Data</h3>
         <p>
             Dalam Python, variabel digunakan untuk menyimpan dan memanipulasi data. Berikut adalah penjelasan tentang
@@ -99,7 +102,7 @@
             <li>Nilai yang diberikan kepada variabel bisa berupa string (seperti `nama`), bilangan bulat (seperti
                 `umur`), bilangan desimal (seperti `tinggi`), atau nilai boolean (seperti `is_pria`).</li>
         </ul>
-
+        <hr>
         <h3>4. Operator</h3>
         <p>Dalam Python, terdapat berbagai jenis operator yang digunakan untuk melakukan operasi pada data. Berikut
             adalah beberapa contoh operator yang sering digunakan:</p>
@@ -272,84 +275,88 @@
             </li>
             <li>
                 <span>
-                    Operator perbandingan (`==`, `!=`, `>`, `<`, `>=`,`<=`.) 
-                </span> digunakan untuk membandingkan dua nilai dan menghasilkan nilai boolean (`True` atau `False`).
-                <ol>
-                    <li>
-                        <p>
-                            <span>Operator Sama dengan (==)</span> : Operator ini digunakan untuk memeriksa
-                            apakah dua nilai atau variabel memiliki nilai yang sama. Jika nilai sama, maka
-                            hasilnya adalah True, jika tidak sama, maka hasilnya adalah False.
-                        </p>
-                        <p>contoh: </p>
-                        <div class="cont-img">
-                            <img src="img/sama-dengan.png" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <hr>
-                    </li>
-                    <li>
-                        <p>
-                            <span>Operator Tidak Sama dengan (!=)</span> : Operator ini digunakan untuk
-                            memeriksa apakah dua nilai atau variabel memiliki nilai yang berbeda. Jika nilai
-                            berbeda, maka hasilnya adalah True, jika sama, maka hasilnya adalah False.
-                        </p>
-                        <p>contoh: </p>
-                        <div class="cont-img">
-                            <img src="img/tidak-sama.png" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <hr>
-                    </li>
-                    <li>
-                        <p>
-                            <span>
-                                Operator Lebih Besar (>)
-                            </span> : Operator ini digunakan untuk memeriksa apakah nilai
-                            pada sebelah kiri lebih besar dari nilai pada sebelah kanan. Jika benar, maka
-                            hasilnya adalah True, jika tidak, maka hasilnya adalah False.
-                        </p>
-                        <p>contoh: </p>
-                        <div class="cont-img">
-                            <img src="img/lebih-besar.png" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <hr>
-                    </li>
-                    <li>
-                        <p>
-                            <span>
-                                Operator Kurang dari (<)
-                            </span> : Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri lebih kecil dari  
-                        </p>
-                            <p>contoh: </p>
-                            <div class="cont-img">
-                                <img src="img/kurang-dari.png" class="img-fluid" alt="" srcset="">
-                            </div>
-                            <hr>
-                    </li>
-                    <li>
-                        <p>
-                            <span>
-                                Operator Lebih Besar atau Sama dengan (>=)
-                            </span> : Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri lebih besar atau sama dengan nilai pada sebelah kanan. Jika benar, maka hasilnya adalah True, jika tidak, maka hasilnya adalah False.
-                        </p>
-                        <p>contoh: </p>
-                        <div class="cont-img">
-                            <img src="img/tambah-dengan.png" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <hr>
-                    </li>
-                    <li>
-                        <p>
-                            <span>
-                                Operator Kurang dari atau Sama dengan (<=)
-                            </span>: Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri lebih kecil atau sama dengan nilai pada sebelah kanan. Jika benar, maka hasilnya adalah True, jika tidak, maka hasilnya adalah False. 
-                        </p>
-                        <p>contoh: </p>
-                        <div class="cont-img">
-                            <img src="img/kurang-dengan.png" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <hr>
-                    </li>
-                </ol>
+                    Operator perbandingan (`==`, `!=`, `>`, `<`, `>=`,`<=`.) </span> digunakan untuk membandingkan dua
+                            nilai dan menghasilkan nilai boolean (`True` atau `False`).
+                            <ol>
+                                <li>
+                                    <p>
+                                        <span>Operator Sama dengan (==)</span> : Operator ini digunakan untuk memeriksa
+                                        apakah dua nilai atau variabel memiliki nilai yang sama. Jika nilai sama, maka
+                                        hasilnya adalah True, jika tidak sama, maka hasilnya adalah False.
+                                    </p>
+                                    <p>contoh: </p>
+                                    <div class="cont-img">
+                                        <img src="img/sama-dengan.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>Operator Tidak Sama dengan (!=)</span> : Operator ini digunakan untuk
+                                        memeriksa apakah dua nilai atau variabel memiliki nilai yang berbeda. Jika nilai
+                                        berbeda, maka hasilnya adalah True, jika sama, maka hasilnya adalah False.
+                                    </p>
+                                    <p>contoh: </p>
+                                    <div class="cont-img">
+                                        <img src="img/tidak-sama.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>
+                                            Operator Lebih Besar (>)
+                                        </span> : Operator ini digunakan untuk memeriksa apakah nilai
+                                        pada sebelah kiri lebih besar dari nilai pada sebelah kanan. Jika benar, maka
+                                        hasilnya adalah True, jika tidak, maka hasilnya adalah False.
+                                    </p>
+                                    <p>contoh: </p>
+                                    <div class="cont-img">
+                                        <img src="img/lebih-besar.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>
+                                            Operator Kurang dari (<) </span> : Operator ini digunakan untuk memeriksa
+                                                apakah nilai pada sebelah kiri lebih kecil dari
+                                    </p>
+                                    <p>contoh: </p>
+                                    <div class="cont-img">
+                                        <img src="img/kurang-dari.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>
+                                            Operator Lebih Besar atau Sama dengan (>=)
+                                        </span> : Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri
+                                        lebih besar atau sama dengan nilai pada sebelah kanan. Jika benar, maka hasilnya
+                                        adalah True, jika tidak, maka hasilnya adalah False.
+                                    </p>
+                                    <p>contoh: </p>
+                                    <div class="cont-img">
+                                        <img src="img/tambah-dengan.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <p>
+                                        <span>
+                                            Operator Kurang dari atau Sama dengan (<=) </span>: Operator ini digunakan
+                                                untuk memeriksa apakah nilai pada sebelah kiri lebih kecil atau sama
+                                                dengan nilai pada sebelah kanan. Jika benar, maka hasilnya adalah True,
+                                                jika tidak, maka hasilnya adalah False.
+                                    </p>
+                                    <p>contoh: </p>
+                                    <div class="cont-img">
+                                        <img src="img/kurang-dengan.png" class="img-fluid" alt="" srcset="">
+                                    </div>
+                                    <hr>
+                                </li>
+                            </ol>
             </li>
             <li>
                 <span>Operator logika (`and`, `or`, `not`) </span> digunakan untuk menggabungkan atau membalikkan nilai
@@ -396,7 +403,7 @@
                 </div>
             </li>
         </ul>
-
+        <hr>
         <h3>5. Pengendalian Aliran</h3>
         <p>
             Pengendalian aliran dalam Python digunakan untuk mengatur jalannya program berdasarkan kondisi atau
@@ -405,7 +412,10 @@
         <ul>
             <li>
                 <p>
-                    <span>Pernyataan Kondisional if-else</span> : Pernyataan kondisional if-else digunakan untuk melakukan percabangan berdasarkan kondisi tertentu. Jika kondisi dalam pernyataan if benar, maka blok kode dalam pernyataan if akan dieksekusi. Jika kondisi dalam pernyataan if salah, maka blok kode dalam pernyataan else akan dieksekusi.
+                    <span>Pernyataan Kondisional if-else</span> : Pernyataan kondisional if-else digunakan untuk
+                    melakukan percabangan berdasarkan kondisi tertentu. Jika kondisi dalam pernyataan if benar, maka
+                    blok kode dalam pernyataan if akan dieksekusi. Jika kondisi dalam pernyataan if salah, maka blok
+                    kode dalam pernyataan else akan dieksekusi.
                 </p>
                 <p>contoh: </p>
                 <div class="cont-img">
@@ -417,7 +427,8 @@
                 <p>
                     <span>
                         Pernyataan Pengulangan for
-                    </span>: Pernyataan pengulangan for digunakan untuk melakukan iterasi sejumlah kali tertentu. Dalam setiap iterasi, nilai variabel yang digunakan akan diperbarui.
+                    </span>: Pernyataan pengulangan for digunakan untuk melakukan iterasi sejumlah kali tertentu. Dalam
+                    setiap iterasi, nilai variabel yang digunakan akan diperbarui.
                 </p>
                 <p>contoh: </p>
                 <div class="cont-img">
@@ -427,9 +438,11 @@
             </li>
             <li>
                 <p>
-                   <span>
-                    Pernyataan Pengulangan while
-                   </span>: Pernyataan pengulangan while digunakan untuk melakukan pengulangan selama kondisi tertentu bernilai benar. Dalam setiap iterasi, kondisi akan diperiksa. Jika kondisi masih benar, blok kode dalam pernyataan while akan terus dieksekusi.
+                    <span>
+                        Pernyataan Pengulangan while
+                    </span>: Pernyataan pengulangan while digunakan untuk melakukan pengulangan selama kondisi tertentu
+                    bernilai benar. Dalam setiap iterasi, kondisi akan diperiksa. Jika kondisi masih benar, blok kode
+                    dalam pernyataan while akan terus dieksekusi.
                 </p>
                 <p>contoh: </p>
                 <div class="cont-img">
@@ -438,9 +451,10 @@
                 <hr>
             </li>
         </ul>
-
-
     </div>
+    <footer class="footer">
+        <p>&copy; 2023 by satriopratamawijaya</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
