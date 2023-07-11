@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Saya</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+        body {
+            background-color: #30475E;
+            font-family: 'Agdasima', sans-serif;
+        }
+        .judul{
+            margin-top: 7px;
+            margin-bottom: 3px;
+        }
+        
+        .container{
+            border: 3px solid black;
+            background-color: #DDDDDD;
+            padding: 0% 5%;
+        }
+        
+        span {
+            font-weight: 700;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        nav,
+        h2,
+        h3 {
+            font-weight: 700;
+        }
+
+        .cont-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../../index.html">Belajar Bersama Satrio</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link bg-primary p-2 " href="30days_python.html">Exit</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container judul">
+        <h2 class="text-center">Hari 1: Pengenalan Python, Hello World, Variabel dan Tipe Data, Operator, dan Pengendalian Aliran</h2>
+    </div>
+    <div class="container">
+        <h3>1. Pengenalan Python</h3>
+        <p>Python adalah bahasa pemrograman tingkat tinggi yang populer dan mudah dipelajari. Berikut adalah beberapa
+            poin penting tentang Python:</p>
+        <ul>
+            <li>Python adalah bahasa pemrograman interpretatif, artinya kode Python dieksekusi secara langsung oleh
+                interpreter tanpa memerlukan proses kompilasi.</li>
+            <li>Python memiliki sintaksis yang sederhana dan mudah dibaca, sehingga mudah dipahami oleh pemula.</li>
+            <li>Python memiliki dukungan yang luas untuk pengembangan berbagai jenis aplikasi, seperti pengembangan web,
+                analisis data, kecerdasan buatan, dan banyak lagi.</li>
+        </ul>
+
+        <h3>2. Hello World</h3>
+        <p>Program "Hello World" merupakan program sederhana yang biasanya digunakan untuk memperkenalkan sebuah bahasa
+            pemrograman. Berikut adalah contoh program "Hello World" dalam Python:</p>
+        <div class="cont-img">
+            <img src="img/hello.png" class="img-fluid" alt="" srcset="">
+        </div>
+        <p>Penjelasan:</p>
+        <ul>
+            <li>Fungsi `print()` digunakan untuk mencetak atau menampilkan teks atau nilai ke layar.</li>
+            <li>Dalam contoh ini, kita mencetak string "Hello, World!".</li>
+        </ul>
+
+        <h3>3. Variabel dan Tipe Data</h3>
+        <p>
+            Dalam Python, variabel digunakan untuk menyimpan dan memanipulasi data. Berikut adalah penjelasan tentang
+            variabel dan beberapa jenis tipe data yang umum digunakan:
+        </p>
+        <div class="cont-img">
+            <img src="img/tipe-data.png" class="img-fluid" alt="" srcset="">
+        </div>
+        <p>Penjelasan:</p>
+        <ul>
+            <li>Pada contoh di atas, kita mendefinisikan beberapa variabel dengan nama `nama`, `umur`, `tinggi`, dan
+                `is_pria`.</li>
+            <li>Nilai yang diberikan kepada variabel bisa berupa string (seperti `nama`), bilangan bulat (seperti
+                `umur`), bilangan desimal (seperti `tinggi`), atau nilai boolean (seperti `is_pria`).</li>
+        </ul>
+
+        <h3>4. Operator</h3>
+        <p>Dalam Python, terdapat berbagai jenis operator yang digunakan untuk melakukan operasi pada data. Berikut
+            adalah beberapa contoh operator yang sering digunakan:</p>
+
+        <p>Penjelasan:</p>
+        <ul>
+            <li>
+                <span>Operator aritmatika (`+`, `-`, `*`, `/`)</span> digunakan untuk melakukan operasi penjumlahan,
+                pengurangan,perkalian, dan pembagian.
+                <ol>
+                    <li>
+                        <p>
+                            <span>Operator Penjumlahan</span>(+) : Operator ini digunakan untuk menjumlahkan dua nilai
+                            atau variabel.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/penjumlahan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p><span>Operator Pengurangan (-)</span> : Operator ini digunakan untuk mengurangkan dua nilai
+                            atau variabel.</p>
+                        <p>contoh: </p>
+
+                        <div class="cont-img">
+                            <img src="img/pengurangan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Perkalian (*)</span> : Operator ini digunakan untuk mengalikan dua nilai atau
+                            variabel.
+                        </p>
+                        <p>contoh: </p>
+
+                        <div class="cont-img">
+                            <img src="img/perkalian.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Pembagian (/)</span> : Operator ini digunakan untuk membagi dua nilai atau
+                            variabel. Hasil pembagian secara default akan berupa float.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/float.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                </ol>
+                <br>
+                <p class="text-center">
+                    <span>Selain operator dasar di atas</span>, terdapat juga beberapa operator aritmatika lainnya
+                    seperti:
+                </p>
+                <br>
+                <ol>
+                    <li>
+                        <p>
+                            <span>Operator Modulus (%)</span> : Operator ini mengembalikan sisa pembagian dari dua nilai
+                            atau variabel.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/modulus.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Pembagian Bulat (//)</span> : Operator ini mengembalikan hasil pembagian
+                            dengan pembulatan ke bawah menjadi bilangan bulat.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/pembagian-bulat.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Pangkat (**)</span> : Operator ini digunakan untuk menghasilkan nilai pangkat
+                            dari suatu angka atau variabel.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/pangkat.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span>Operator penugasan (`+=`, `-=`, `*=`, `/=`, `%=`)</span> digunakan untuk menggabungkan operasi
+                penugasan dengan
+                operasi aritmatika.
+                <ol>
+                    <li>
+                        <p>
+                            Operator Penugasan Penjumlahan (+=): Operator ini digunakan untuk menjumlahkan dua nilai
+                            atau variabel dan menyimpan hasilnya ke dalam variabel yang sama.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/penugasan-penjumlahan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Operator Penugasan Pengurangan (-=)
+                            </span> : Operator ini digunakan untuk mengurangkan dua nilai atau variabel dan menyimpan
+                            hasilnya ke dalam variabel yang sama.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/penugasan-pengurangan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Operator Penugasan Perkalian (*=)
+                            </span> : Operator ini digunakan untuk mengalikan dua nilai atau variabel dan menyimpan
+                            hasilnya ke dalam variabel yang sama.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/penugasan-perkalian.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                </ol>
+                <br>
+                <p class="text-center">
+                    <span>Selain operator di atas</span>, terdapat juga operator penugasan lainnya seperti:
+                </p>
+                <br>
+                <ol>
+                    <li>
+                        <p>
+                            <span>Operator Penugasan Pembagian (/=)</span> : Operator ini digunakan untuk membagi dua
+                            nilai atau variabel dan menyimpan hasilnya ke dalam variabel yang sama.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/penugasan-pembagian.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span> Operator Penugasan Modulus (%=)</span> : Operator ini digunakan untuk menghitung sisa
+                            pembagian dari dua nilai atau variabel dan menyimpan hasilnya ke dalam variabel yang sama.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/penugasan-modulus.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span>
+                    Operator perbandingan (`==`, `!=`, `>`, `<`, `>=`,`<=`.) 
+                </span> digunakan untuk membandingkan dua nilai dan menghasilkan nilai boolean (`True` atau `False`).
+                <ol>
+                    <li>
+                        <p>
+                            <span>Operator Sama dengan (==)</span> : Operator ini digunakan untuk memeriksa
+                            apakah dua nilai atau variabel memiliki nilai yang sama. Jika nilai sama, maka
+                            hasilnya adalah True, jika tidak sama, maka hasilnya adalah False.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/sama-dengan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Tidak Sama dengan (!=)</span> : Operator ini digunakan untuk
+                            memeriksa apakah dua nilai atau variabel memiliki nilai yang berbeda. Jika nilai
+                            berbeda, maka hasilnya adalah True, jika sama, maka hasilnya adalah False.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/tidak-sama.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Operator Lebih Besar (>)
+                            </span> : Operator ini digunakan untuk memeriksa apakah nilai
+                            pada sebelah kiri lebih besar dari nilai pada sebelah kanan. Jika benar, maka
+                            hasilnya adalah True, jika tidak, maka hasilnya adalah False.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/lebih-besar.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Operator Kurang dari (<)
+                            </span> : Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri lebih kecil dari  
+                        </p>
+                            <p>contoh: </p>
+                            <div class="cont-img">
+                                <img src="img/kurang-dari.png" class="img-fluid" alt="" srcset="">
+                            </div>
+                            <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Operator Lebih Besar atau Sama dengan (>=)
+                            </span> : Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri lebih besar atau sama dengan nilai pada sebelah kanan. Jika benar, maka hasilnya adalah True, jika tidak, maka hasilnya adalah False.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/tambah-dengan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Operator Kurang dari atau Sama dengan (<=)
+                            </span>: Operator ini digunakan untuk memeriksa apakah nilai pada sebelah kiri lebih kecil atau sama dengan nilai pada sebelah kanan. Jika benar, maka hasilnya adalah True, jika tidak, maka hasilnya adalah False. 
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/kurang-dengan.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <span>Operator logika (`and`, `or`, `not`) </span> digunakan untuk menggabungkan atau membalikkan nilai
+                boolean (True atau False).
+                <ol>
+                    <li>
+                        <p>
+                            <span>Operator Logika and</span> : Operator and menghasilkan True jika kedua operandnya
+                            bernilai True, dan menghasilkan False jika salah satu atau kedua operandnya bernilai False.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/and.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Logika or</span> : Operator or menghasilkan True jika salah satu atau kedua
+                            operandnya bernilai True, dan menghasilkan False jika kedua operandnya bernilai False.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/or.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>
+                            <span>Operator Logika not</span> : Operator not digunakan untuk membalikkan nilai boolean
+                            dari operandnya. Jika operandnya bernilai True, maka hasilnya adalah False. Jika operandnya
+                            bernilai False, maka hasilnya adalah True.
+                        </p>
+                        <p>contoh: </p>
+                        <div class="cont-img">
+                            <img src="img/not.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <hr>
+                    </li>
+                </ol>
+                <span>Contoh penggabungan operator logika:</span>
+                <div class="cont-img">
+                    <img src="img/contoh-logika.png" class="img-fluid" alt="" srcset="">
+                </div>
+            </li>
+        </ul>
+
+        <h3>5. Pengendalian Aliran</h3>
+        <p>
+            Pengendalian aliran dalam Python digunakan untuk mengatur jalannya program berdasarkan kondisi atau
+            melakukan pengulangan.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    <span>Pernyataan Kondisional if-else</span> : Pernyataan kondisional if-else digunakan untuk melakukan percabangan berdasarkan kondisi tertentu. Jika kondisi dalam pernyataan if benar, maka blok kode dalam pernyataan if akan dieksekusi. Jika kondisi dalam pernyataan if salah, maka blok kode dalam pernyataan else akan dieksekusi.
+                </p>
+                <p>contoh: </p>
+                <div class="cont-img">
+                    <img src="img/if.png" class="img-fluid" alt="" srcset="">
+                </div>
+                <hr>
+            </li>
+            <li>
+                <p>
+                    <span>
+                        Pernyataan Pengulangan for
+                    </span>: Pernyataan pengulangan for digunakan untuk melakukan iterasi sejumlah kali tertentu. Dalam setiap iterasi, nilai variabel yang digunakan akan diperbarui.
+                </p>
+                <p>contoh: </p>
+                <div class="cont-img">
+                    <img src="img/for.png" class="img-fluid" alt="" srcset="">
+                </div>
+                <hr>
+            </li>
+            <li>
+                <p>
+                   <span>
+                    Pernyataan Pengulangan while
+                   </span>: Pernyataan pengulangan while digunakan untuk melakukan pengulangan selama kondisi tertentu bernilai benar. Dalam setiap iterasi, kondisi akan diperiksa. Jika kondisi masih benar, blok kode dalam pernyataan while akan terus dieksekusi.
+                </p>
+                <p>contoh: </p>
+                <div class="cont-img">
+                    <img src="img/while.png" class="img-fluid" alt="" srcset="">
+                </div>
+                <hr>
+            </li>
+        </ul>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
