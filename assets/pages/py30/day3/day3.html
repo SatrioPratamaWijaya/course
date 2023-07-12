@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hari #2 Belajar Python</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+        body {
+            background-color: #30475E;
+            font-family: 'Agdasima', sans-serif;
+        }
+
+        .judul {
+            margin-top: 7px;
+            margin-bottom: 3px;
+        }
+
+        .container {
+            border: 3px solid black;
+            background-color: #DDDDDD;
+            padding: 0% 5%;
+        }
+
+        span {
+            font-weight: 700;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        nav,
+        h2,
+        h3,
+        h4 {
+            font-weight: 700;
+        }
+
+        .cont-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer {
+            background-color: #212529;
+            color: #FFFF;
+            padding: 10px 0;
+            text-align: center;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../../../index.html">Belajar Bersama Satrio</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link bg-primary p-2 " href="../30days_python.html">Exit</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-2">
+        <h2>Hari 3: Set, Dictionary, dan Fungsi Dasar</h2>
+    </div>
+    <div class="container">
+        <h3>1. Set</h3>
+        <ul>
+            <li>
+                <p><span>Pengenalan tipe data Set</span></p>
+                <p>Set adalah tipe data yang digunakan untuk menyimpan kumpulan elemen yang unik (tidak ada duplikat)
+                    dan tidak diurutkan (unordered). Set merupakan implementasi dari struktur data himpunan matematika
+                    dalam Python.</p>
+                <span>contoh: </span>
+                <div class="cont-img">
+                    <img src="img/membuat_set.png" class="img-fluid" alt="" srcset="">
+                </div>
+                <span>Penjelasan:</span>
+                <ol>
+                    <li>
+                        <p>
+                            Pada contoh di atas, kita membuat beberapa set dengan menggunakan tanda kurung kurawal `{}`.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Set `buah` berisi tiga elemen unik: "apel", "pisang", dan "mangga".
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Set `bilangan` berisi lima bilangan bulat unik: 1, 2, 3, 4, dan 5.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Set `campuran` berisi empat elemen dengan tipe data yang berbeda: bilangan bulat, string, boolean, dan float.
+                        </p>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <p><span>Mengapa Set Berguna dan Apa Kelebihannya</span></p>
+                <ol>
+                    <li>
+                        <p><span>Set memiliki sifat unik</span>, sehingga tidak ada duplikat dalam set. Ini sangat berguna saat kita ingin menyimpan elemen-elemen unik dari suatu kumpulan data.</p>
+                        <span>contoh: </span>
+                        <div class="cont-img">
+                            <img src="img/sifatunik_set.png" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <span>penjelasan</span>
+                        <ul>
+                            <li>
+                                <p>
+                                    Pada contoh di atas, kita memiliki sebuah daftar daftar_buah yang berisi beberapa nama buah, termasuk beberapa duplikat.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Kemudian, kita menggunakan konstruktor set() untuk membuat set baru, buah_unik, dengan mengonversi daftar menjadi set.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Hasilnya adalah set buah_unik yang hanya berisi elemen-elemen unik dari daftar nama buah, yaitu 'mangga', 'jeruk', 'pisang', 'apel', dan 'anggur'.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    Duplikat seperti 'apel' dan 'mangga' dihapus karena set hanya menyimpan elemen unik.
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Set juga mendukung operasi matematika seperti gabungan (union), irisan (intersection), dan perbedaan (difference). Ini memudahkan dalam melakukan operasi himpunan.</li>
+                    <li>Kelebihan lain dari set adalah kemampuannya untuk melakukan operasi dalam waktu yang konstan (O(1)), tanpa tergantung pada ukuran set.</li>
+                  </ol>
+            </li>
+            <li></li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 by satriopratamawijaya</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
