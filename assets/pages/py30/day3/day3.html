@@ -72,80 +72,46 @@
         <h2>Hari 3: Set, Dictionary, dan Fungsi Dasar</h2>
     </div>
     <div class="container">
-        <h3>1. Set</h3>
+        <h3>1. Pengenalan tipe data set</h3>
+        <p>Set adalah tipe data yang digunakan untuk menyimpan kumpulan elemen yang unik (tidak ada duplikat) dan tidak diurutkan (unordered). Dalam set, urutan elemen tidak dijamin, sehingga tidak dapat mengakses elemen menggunakan indeks. Set menggunakan konsep matematika himpunan dan dapat digunakan untuk melakukan operasi himpunan seperti union, intersection, dan difference.</p>
+
+        <h3>2. Mengapa set berguna dan apa kelebihannya</h3>
+        <p>Berikut adalah beberapa kegunaan dan kelebihan yang dapat dilakukan pada set:</p>
         <ul>
+            <li>Elemen dalam set unik, artinya tidak ada elemen yang sama/duplikat dalam satu set.</li>
+            <li>Penggunaan set berguna saat kita perlu menyimpan koleksi elemen yang hanya membutuhkan keunikan, seperti daftar kata unik dalam sebuah teks.</li>
+            <li>Kelebihan set adalah kemampuannya untuk melakukan operasi himpunan secara efisien, seperti penggabungan (union), irisan (intersection), perbedaan (difference), dan lainnya.</li>
+        </ul>
+
+        <h3>3. Operasi dasar pada set</h3>
+        <p>Berikut adalah beberapa operasi dasar yang dapat dilakukan pada set:</p>
+
+        <ol>
             <li>
-                <p><span>Pengenalan tipe data Set</span></p>
-                <p>Set adalah tipe data yang digunakan untuk menyimpan kumpulan elemen yang unik (tidak ada duplikat)
-                    dan tidak diurutkan (unordered). Set merupakan implementasi dari struktur data himpunan matematika
-                    dalam Python.</p>
+                <p><span>Union (Gabungan)</span></p>
+                <p>Union (gabungan) adalah operasi yang menghasilkan set baru yang berisi elemen-elemen dari kedua set yang digabungkan tanpa duplikat.</p>
                 <span>contoh: </span>
                 <div class="cont-img">
-                    <img src="img/membuat_set.png" class="img-fluid" alt="" srcset="">
+                    <img src="img/union.png" class="img-fluid" alt="" srcset="">
                 </div>
-                <span>Penjelasan:</span>
-                <ol>
-                    <li>
-                        <p>
-                            Pada contoh di atas, kita membuat beberapa set dengan menggunakan tanda kurung kurawal `{}`.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Set `buah` berisi tiga elemen unik: "apel", "pisang", dan "mangga".
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Set `bilangan` berisi lima bilangan bulat unik: 1, 2, 3, 4, dan 5.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Set `campuran` berisi empat elemen dengan tipe data yang berbeda: bilangan bulat, string, boolean, dan float.
-                        </p>
-                    </li>
-                </ol>
+                <p><span>Penjelasan</span></p>
+                <p>Pada contoh di atas, elemen-elemen dari set1 dan set2 yang digabungkan adalah {1, 2, 3} dan {3, 4, 5}. Karena elemen 3 muncul di kedua set, hasil Union akan menghilangkan duplikat dan menghasilkan set baru {1, 2, 3, 4, 5}.</p>
             </li>
             <li>
-                <p><span>Mengapa Set Berguna dan Apa Kelebihannya</span></p>
-                <ol>
-                    <li>
-                        <p><span>Set memiliki sifat unik</span>, sehingga tidak ada duplikat dalam set. Ini sangat berguna saat kita ingin menyimpan elemen-elemen unik dari suatu kumpulan data.</p>
-                        <span>contoh: </span>
-                        <div class="cont-img">
-                            <img src="img/sifatunik_set.png" class="img-fluid" alt="" srcset="">
-                        </div>
-                        <span>penjelasan</span>
-                        <ul>
-                            <li>
-                                <p>
-                                    Pada contoh di atas, kita memiliki sebuah daftar daftar_buah yang berisi beberapa nama buah, termasuk beberapa duplikat.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Kemudian, kita menggunakan konstruktor set() untuk membuat set baru, buah_unik, dengan mengonversi daftar menjadi set.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Hasilnya adalah set buah_unik yang hanya berisi elemen-elemen unik dari daftar nama buah, yaitu 'mangga', 'jeruk', 'pisang', 'apel', dan 'anggur'.
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    Duplikat seperti 'apel' dan 'mangga' dihapus karena set hanya menyimpan elemen unik.
-                                </p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Set juga mendukung operasi matematika seperti gabungan (union), irisan (intersection), dan perbedaan (difference). Ini memudahkan dalam melakukan operasi himpunan.</li>
-                    <li>Kelebihan lain dari set adalah kemampuannya untuk melakukan operasi dalam waktu yang konstan (O(1)), tanpa tergantung pada ukuran set.</li>
-                  </ol>
+                <p><span> Intersection (Irisan)</span></p>
+                <p>Intersection (irisan) adalah operasi yang menghasilkan set baru yang berisi elemen-elemen yang ada di kedua set.</p>
+                <span>contoh: </span>
+                <div class="cont-img">
+                    <img src="img/intersection.png" class="img-fluid" alt="" srcset="">
+                </div>
             </li>
-            <li></li>
-        </ul>
+            <li>
+                <p><span></span></p>
+            </li>
+        </ol>
+
+
+        <p>Semoga penjelasan di atas membantu Anda dalam memahami materi tentang Set.</p>
     </div>
 
     <footer class="footer">
